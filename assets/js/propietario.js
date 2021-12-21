@@ -5,7 +5,7 @@ export class Propietario {
         this.telefono = Telefono
     }
     datosPropietario(){
-        return (`El nombre del dueño es: ${this.nombre}. El domicilio es: ${this.direccion}, y el número telefónico de contacto es: ${this.telefono}.`);
+        return `El nombre del dueño es: ${this.nombre}. El domicilio es: ${this.direccion}, y el número telefónico de contacto es: ${this.telefono}.`;
     }
     
 

@@ -6,7 +6,7 @@ export class Animal extends Propietario{
         this.tipo = Tipo
     }
     getTipo(){
-        return this.tipo;
+        return `El tipo de es un: ${this.tipo}`;
     }
 
 }
